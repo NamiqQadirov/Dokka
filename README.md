@@ -11,7 +11,7 @@
  dependencies { </br>
         . </br>
         . </br>
-        classpath "org.jetbrains.dokka:dokka-gradle-plugin:0.9.17" </br>
+        classpath "org.jetbrains.dokka:dokka-gradle-plugin:0.9.17" // You should change version to last</br>
     }  
  </li>
   <li> 
