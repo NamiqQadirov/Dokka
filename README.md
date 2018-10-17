@@ -25,17 +25,17 @@ apply plugin: 'org.jetbrains.dokka' to head of app's build.gradle
    .   </br>
    .   </br>
    .   </br>
-task dokka(overwrite: true, type: org.jetbrains.dokka.gradle.DokkaTask) {
-        outputFormat = 'html'
-        outputDirectory = "$buildDir/dokka"
-        packageOptions {
-            prefix = "android"
-            suppress = true
-        }
-        packageOptions {
-            prefix = "br.az.dokkatest"
-            suppress = false
-         }
+task dokka(overwrite: true, type: org.jetbrains.dokka.gradle.DokkaTask) {</br>
+        outputFormat = 'html'</br>
+        outputDirectory = "$buildDir/dokka"</br>
+        packageOptions {</br>
+            prefix = "android"</br>
+            suppress = true</br>
+        }</br>
+        packageOptions {</br>
+            prefix = "br.az.dokkatest"</br>
+            suppress = false</br>
+         }</br>
     }   </br>
    .   </br>
    .   </br>
