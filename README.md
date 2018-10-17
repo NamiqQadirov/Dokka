@@ -7,6 +7,7 @@
  <ul>
   <li>
  add  classpath "org.jetbrains.dokka:dokka-gradle-plugin:0.9.17" as following in porject's build.gradle
+   </br>
  dependencies {
         .
         .
@@ -14,14 +15,16 @@
     }
  </li>
   <li> 
- add apply plugin: 'org.jetbrains.dokka' to head of app's build.gradle
+ add    </br>
+apply plugin: 'org.jetbrains.dokka' to head of app's build.gradle
  </li>
   <li> 
-   add dokka task as following 
-   android {
-   .
-   .
-   .
+   add dokka task as following   
+</br>
+   android {   </br>
+   .   </br>
+   .   </br>
+   .   </br>
 task dokka(overwrite: true, type: org.jetbrains.dokka.gradle.DokkaTask) {
         outputFormat = 'html'
         outputDirectory = "$buildDir/dokka"
@@ -34,10 +37,10 @@ task dokka(overwrite: true, type: org.jetbrains.dokka.gradle.DokkaTask) {
             suppress = false
          }
     }
-   .
-   .
-   .
-   }
+   .   </br>
+   .   </br>
+   .   </br>
+   }   </br>
  </li>
  </ul> 
 
