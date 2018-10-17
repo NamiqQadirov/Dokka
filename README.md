@@ -36,7 +36,7 @@ task dokka(overwrite: true, type: org.jetbrains.dokka.gradle.DokkaTask) {
             prefix = "br.az.dokkatest"
             suppress = false
          }
-    }
+    }   </br>
    .   </br>
    .   </br>
    .   </br>
